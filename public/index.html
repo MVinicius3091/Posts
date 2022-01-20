@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Mural de Posts</title>
+  </head>
+  <body>
+    <h2>Deixe um post como lembrete/aviso sobre um assunto</h2>
+    <div class="container">
+      <input
+        type="text"
+        name="titulo"
+        id="titulo"
+        placeholder="Escreva um título"
+        required
+      /><br />
+
+      <textarea
+        name="descricao"
+        id="descricao"
+        cols="30"
+        rows="10"
+        placeholder="Faça a sua descrição"
+        required
+      ></textarea
+      ><br />
+
+      <button id="button">Salvar</button>
+    </div>
+
+    <div class="indexMural">
+      <h2>Mural de posts</h2>
+    </div>
+    <div class="containerMural"></div>
+    <script src="newScript.js"></script>
+  </body>
+</html>

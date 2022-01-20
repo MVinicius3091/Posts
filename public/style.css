@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-family: Consolas;
+}
+
+body {
+  background-image: url(./imagens/fundoDeTela.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 92.9vh;
+}
+
+body h2 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container {
+  width: 400px;
+  padding: 10px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  margin-top: 40px;
+  border: solid white 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.container input {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px 0;
+}
+.container textarea {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.container button {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 900;
+}
+.indexMural h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #212121;
+  color: white;
+  padding: 20px 0;
+  width: 400px;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.boxMural {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.boxMural h1 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.boxMural div {
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f4f1;
+  border-radius: 5px;
+}
+
+.remove {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.remove button {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  top: 0;
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
